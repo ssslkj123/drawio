@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="kpIQoOo-SqKmBoQv5uoG">
-    <mxGraphModel dx="3374" dy="3162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3639" dy="3289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -585,6 +585,9 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-364" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-170" target="C2c8WaAtsum3YVKJCmWT-363">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C2c8WaAtsum3YVKJCmWT-170" value="持续构建CI：tketon（&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;编译、构建、打包&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1146" y="-780" width="120" height="60" as="geometry" />
         </mxCell>
@@ -756,6 +759,9 @@
         <mxCell id="C2c8WaAtsum3YVKJCmWT-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-257" target="C2c8WaAtsum3YVKJCmWT-275">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-359" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-257" target="C2c8WaAtsum3YVKJCmWT-358">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C2c8WaAtsum3YVKJCmWT-257" value="日志集群ES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="573" y="-1280" width="120" height="60" as="geometry" />
         </mxCell>
@@ -803,7 +809,7 @@
         <mxCell id="C2c8WaAtsum3YVKJCmWT-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-276" target="C2c8WaAtsum3YVKJCmWT-248">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C2c8WaAtsum3YVKJCmWT-353" value="DMS管理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C2c8WaAtsum3YVKJCmWT-277">
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-353" value="DMS管理|自研绿洲平台" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="C2c8WaAtsum3YVKJCmWT-277">
           <mxGeometry x="-0.3184" y="6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -825,8 +831,14 @@
         <mxCell id="C2c8WaAtsum3YVKJCmWT-295" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.854;entryY=0.719;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-291" target="C2c8WaAtsum3YVKJCmWT-251">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-365" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-297" target="C2c8WaAtsum3YVKJCmWT-363">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C2c8WaAtsum3YVKJCmWT-297" value="Kubernetes" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1166" y="-1120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-362" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-299" target="C2c8WaAtsum3YVKJCmWT-360">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C2c8WaAtsum3YVKJCmWT-299" value="IaaS/Paas：指标监控&lt;div&gt;CPU、内存、磁盘、qps等&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="592" y="-813" width="120" height="60" as="geometry" />
@@ -934,6 +946,18 @@
         </mxCell>
         <mxCell id="C2c8WaAtsum3YVKJCmWT-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-276" target="C2c8WaAtsum3YVKJCmWT-354">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-361" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C2c8WaAtsum3YVKJCmWT-358" target="C2c8WaAtsum3YVKJCmWT-360">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-358" value="ES日志集中管理：sky-eye" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-360" value="集中监控报警平台六翼天使" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1534" y="-1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C2c8WaAtsum3YVKJCmWT-363" value="DevCude发布、上限管理平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="-970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
